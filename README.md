@@ -26,4 +26,4 @@ The program reads `data2.txt`, writes diagrams and opens an image viewer. Input 
 This is the historical prototype, not a general-purpose automata library. The original epsilon-transition code uses `extend` on a state name, so multi-character epsilon destinations can be split incorrectly. Its traversal starts from the first encountered state rather than the union of all declared start states. Empty DFA states are omitted. PDA and Turing-machine execution are not implemented. These limitations are retained and documented rather than silently presenting a rewritten algorithm as the original coursework.
 
 ## 中文简介
-北邮夏令营自动机课业：读取状态转移描述，计算 epsilon 闭包并生成 NFA / DFA 状态图。保留原始实现，已知边界问题见上文。
+读取状态转移描述，计算 epsilon 闭包并生成 NFA / DFA 状态图。保留原始实现，已知边界问题见上文。
